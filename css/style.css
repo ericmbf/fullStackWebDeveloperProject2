@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+}
+
+header{
+    border-style: solid;
+    background-color: red;
+}
+
+.myContainer {
+    display: flex; /* or inline-flex */
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    width: 100%;
+}
+
+.myContainer header > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+div.logo{
+    width: 20%;
+}
+
+div.name{
+    width: 80%;
+}
+
+#labsixImage{
+    width:100%;
+    height:100%;
+}
