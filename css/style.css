@@ -2,20 +2,36 @@
     box-sizing: border-box;
 }
 
-.background-style{
+#logo{
+    width: 40px;
+    height: 40px;
+}
+
+.background-color{
     background-color: #17203C !important;
 }
 
-.mainImage {
-    box-shadow: 10px 10px 5px grey;
+#name-logo{
+    vertical-align: middle;
 }
 
-.myNavBar{
-    text-align: right;
+
+img.img-fluid{
+    box-shadow: 5px 5px 5px grey;
 }
 
 .icon{
     width: 20px;
     height: 20px;
     margin-bottom: 4px;
+}
+
+@media (min-width: 768px) 
+{
+    ul {
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+        list-style-position: inside;
+      }
 }
