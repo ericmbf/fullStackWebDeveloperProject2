@@ -48,3 +48,10 @@ a, a:hover{
         list-style-position: inside;
       }
 }
+
+@media (max-width: 345px) 
+{
+    .header-heading{
+        font-size: 6vw;
+    }
+}
