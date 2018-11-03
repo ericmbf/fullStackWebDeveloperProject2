@@ -12,7 +12,7 @@
 }
 
 #name-logo{
-    vertical-align: middle;
+    vertical-align: -webkit-baseline-middle;
 }
 
 img.img-fluid{
